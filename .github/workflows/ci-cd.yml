@@ -21,8 +21,8 @@ jobs:
           script: |
             cd ~/full-DevOps-project
             git pull origin main
-            docker build -t full-devops-project:latest ./app
-            docker stop full-devops-project || true
-            docker rm full-devops-project || true
+            sudo docker build -t full-devops-project:latest ./app
+            sudo docker stop full-devops-project || true
+            sudo docker rm full-devops-project || true
             docker run -dp 3000:3000 --name full-devops-project full-devops-project:latest
 
