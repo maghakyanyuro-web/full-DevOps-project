@@ -42,8 +42,3 @@ Open http://localhost:3000
 ## ☁️ Deployment
 
 Deployed on AWS EC2 (Ubuntu 22.04, t3.micro)
-
-## 📌 Coming Soon
-
-- Terraform (Infrastructure as Code)
-- Kubernetes deployment
